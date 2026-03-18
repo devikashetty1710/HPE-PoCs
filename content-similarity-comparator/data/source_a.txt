@@ -1,0 +1,20 @@
+---
+ID: KAN-1
+Title: Login page shows error when password has special characters
+Description: Users report that logging in with passwords containing @, #, or ! symbols causes a 500 error. The backend is not escaping the input properly before passing it to the auth service.
+---
+ID: KAN-2
+Title: Dashboard loading time is too slow for large datasets
+Description: When a user has more than 10,000 records, the dashboard takes over 30 seconds to load. We need to add pagination and lazy loading to fix this performance issue.
+---
+ID: KAN-3
+Title: Add dark mode support to the UI
+Description: Many users have requested a dark theme for the application. We should implement a toggle in the settings page that switches between light and dark mode and persists the choice in localStorage.
+---
+ID: KAN-4
+Title: Email notifications are not being sent after task completion
+Description: The notification service fails silently when the SMTP server is unavailable. Tasks complete but users never receive confirmation emails. Need better error handling and retry logic.
+---
+ID: KAN-5
+Title: Export data to CSV feature is missing
+Description: Users need the ability to download their records as a CSV file. This feature should be accessible from the main table view and support filtering before export.

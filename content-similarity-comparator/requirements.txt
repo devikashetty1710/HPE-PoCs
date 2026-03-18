@@ -1,0 +1,13 @@
+# Core scientific computing — vectors, math
+numpy>=1.26.0
+
+# Load .env files (GEMINI_API_KEY etc.)
+python-dotenv>=1.0.0
+
+# ── Gemini (cloud) ────────────────────────────────────────────────────────────
+# Uncomment when you want to use Gemini mode:
+google-generativeai>=0.7.0
+
+# ── Ollama (local) ───────────────────────────────────────────────────────────
+# HTTP calls to the local Ollama server
+requests>=2.31.0

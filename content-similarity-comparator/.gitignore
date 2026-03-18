@@ -1,0 +1,21 @@
+# Secret files — NEVER push these
+.env
+
+# Python junk files
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ChromaDB local vector store (auto-generated)
+chroma_db/

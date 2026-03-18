@@ -1,0 +1,40 @@
+# Secrets — never commit
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# ChromaDB persisted data
+chroma_db/
+faiss_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Personal documents (add your own docs locally, don't commit them)
+sample_docs/*
+!sample_docs/.gitkeep
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db

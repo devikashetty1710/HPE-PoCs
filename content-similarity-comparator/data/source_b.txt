@@ -1,0 +1,20 @@
+---
+ID: GH-101
+Title: Special characters in passwords break the authentication endpoint
+Description: Reproduction: create an account with password "P@ssw0rd!". Attempting to log in returns HTTP 500. The issue is in the auth middleware which does not URL-encode special characters before forwarding to the identity provider.
+---
+ID: GH-102
+Title: Performance degradation with large user record counts
+Description: Profiling shows that loading the main dashboard does a full table scan on the records table. For accounts with over 10k rows the query alone takes 25 seconds. Proposed fix: server-side pagination + indexed queries.
+---
+ID: GH-103
+Title: Implement theme switcher for dark/light mode
+Description: Feature request: add a theme switcher button in the navbar. Should toggle between dark and light themes. Preference should be saved so it persists across sessions (localStorage or cookie).
+---
+ID: GH-104
+Title: Improve CSV download functionality
+Description: Add a "Download as CSV" button to the records table. Should respect active filters. Bonus: let users choose which columns to include.
+---
+ID: GH-105
+Title: WebSocket connection drops after 60 seconds of inactivity
+Description: The real-time update feed disconnects after one minute of no activity. The server is not sending heartbeat pings. Clients should automatically reconnect when the connection drops.

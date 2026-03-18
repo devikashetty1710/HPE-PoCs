@@ -1,0 +1,67 @@
+{
+  "mode": "gemini",
+  "timestamp": "20260312_000343",
+  "total_matches": 5,
+  "matches": [
+    {
+      "rank": 1,
+      "score": 0.9372,
+      "source_a": {
+        "id": "DEV-7",
+        "title": "Email notifications not sent after task is completed"
+      },
+      "source_b": {
+        "id": "GH-4",
+        "title": "Notification emails are never delivered on task completion"
+      }
+    },
+    {
+      "rank": 2,
+      "score": 0.9032,
+      "source_a": {
+        "id": "DEV-8",
+        "title": "Allow users to export their data as CSV"
+      },
+      "source_b": {
+        "id": "GH-5",
+        "title": "Add CSV export button to the records table"
+      }
+    },
+    {
+      "rank": 3,
+      "score": 0.8672,
+      "source_a": {
+        "id": "DEV-4",
+        "title": "Login fails when password contains special characters"
+      },
+      "source_b": {
+        "id": "GH-1",
+        "title": "Special characters in passwords cause authentication failure"
+      }
+    },
+    {
+      "rank": 4,
+      "score": 0.855,
+      "source_a": {
+        "id": "DEV-5",
+        "title": "Dashboard is slow when loading large datasets"
+      },
+      "source_b": {
+        "id": "GH-2",
+        "title": "Performance degradation with large record counts"
+      }
+    },
+    {
+      "rank": 5,
+      "score": 0.8235,
+      "source_a": {
+        "id": "DEV-6",
+        "title": "Add dark mode toggle to the settings page"
+      },
+      "source_b": {
+        "id": "GH-3",
+        "title": "Implement light and dark theme switcher"
+      }
+    }
+  ]
+}
