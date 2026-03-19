@@ -230,10 +230,3 @@ Interactive query loop in the terminal with full ReAct trace output.
 | Agent loops without answering | Query is ambiguous — try rephrasing with more specific keywords |
 
 ---
-
-## Author
-
-**Devika Shetty** — NNM23IS046
-HPE POC-2 · 2025
-
-*Built with LangChain · Groq · FAISS · Streamlit · Python 3.10+*
