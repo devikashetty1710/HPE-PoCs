@@ -10,7 +10,7 @@ Each project is self-contained with its own setup instructions and documentation
 | # | Project | Description | Stack |
 |---|---|---|---|
 | 1 | [Content Similarity Comparator](./content-similarity-comparator) | Compares Jira tickets and GitHub issues using semantic embeddings | Python, ChromaDB, Gemini, Ollama |
-| 2 | [AI Doc Agent](./ai-doc-agent) | Multi-source intelligent document retrieval agent with local-first RAG strategy | Python, LangChain, Gemini API, ChromaDB |
+| 2 | [AI Doc Agent](./ai-doc-agent) | Multi-source intelligent document retrieval agent with local-first RAG strategy | Python, LangChain, Gemini API, FAISS |
 
 ---
 
@@ -19,7 +19,7 @@ Each project is self-contained with its own setup instructions and documentation
 ### 1. Content Similarity Comparator
 > Compares Jira tickets and GitHub issues using semantic embeddings to identify duplicate or related content.
 
-- **Stack:** Python, ChromaDB, Google Gemini API, Ollama (`llama3.2:3b`), LangChain
+- **Stack:** Python, ChromaDB, Google Gemini API, Ollama (`llama3.2:3b`)
 - **Key Features:**
   - Dual backend support — cloud (Gemini) and local (Ollama)
   - Cosine similarity scoring with tuned thresholds per model
@@ -32,7 +32,7 @@ Each project is self-contained with its own setup instructions and documentation
 ### 2. AI Doc Agent
 > End-to-end intelligent document querying system with multi-source retrieval, full source attribution, and a browser-based UI — built entirely on a free-tier stack.
 
-- **Stack:** Python, LangChain, Google Gemini API, ChromaDB
+- **Stack:** Python, LangChain, Google Gemini API, FAISS
 - **Key Features:**
   - Local-first RAG strategy — private documents are always checked before the internet
   - Automatic Wikipedia fallback when answer is not found in local documents
@@ -62,7 +62,7 @@ Each project is self-contained with its own setup instructions and documentation
 |---|---|
 | Language | Python |
 | LLM APIs | Google Gemini API, Ollama |
-| Vector DB | ChromaDB |
+| Vector DB | ChromaDB, FAISS |
 | Frameworks | LangChain, Flask |
 | Integrations | Jira API, GitHub API, Wikipedia API |
 
