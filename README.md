@@ -10,7 +10,7 @@ Each project is self-contained with its own setup instructions and documentation
 | # | Project | Description | Stack |
 |---|---|---|---|
 | 1 | [Content Similarity Comparator](./content-similarity-comparator) | Compares Jira tickets and GitHub issues using semantic embeddings | Python, ChromaDB, Gemini, Ollama |
-| 2 | [AI Doc Agent](./ai-doc-agent) | Multi-source intelligent document retrieval agent with local-first RAG strategy | Python, LangChain, Gemini API, FAISS |
+| 2 | [AI Doc Agent](./ai-doc-agent) | Multi-source intelligent document retrieval agent with local-first RAG strategy | Python, LangChain, Groq AI, FAISS |
 
 ---
 
