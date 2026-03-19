@@ -32,7 +32,7 @@ Each project is self-contained with its own setup instructions and documentation
 ### 2. AI Doc Agent
 > End-to-end intelligent document querying system with multi-source retrieval, full source attribution, and a browser-based UI — built entirely on a free-tier stack.
 
-- **Stack:** Python, LangChain, Google Gemini API, FAISS
+- **Stack:** Python, LangChain, Groq AI, FAISS
 - **Key Features:**
   - Local-first RAG strategy — private documents are always checked before the internet
   - Automatic Wikipedia fallback when answer is not found in local documents
